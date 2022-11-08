@@ -1,0 +1,236 @@
+
+@font-face {
+	font-family: 'Gothem-Black'; 
+	src: url(/шрифт/GothamBlack.ttf); 
+}
+@font-face {
+	font-family: 'Gothem-Medium'; 
+	src: url(/шрифт/GothamMedium.ttf); 
+}
+*{
+    font-family: 'Gothem-Medium';
+    /* color:#08172b; */
+}
+body{
+    margin: 0;
+    background-image: url(/img/фон.jpeg);
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none; 
+}
+h1{
+    text-align: center;
+    /* text-shadow: 0 0 15px #003152; */
+    margin: 40px auto;
+}
+main{
+    background:rgb(2, 22, 41);
+    color:#b9daf0;
+    /* background:rgb(255, 255, 255); */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px auto;
+    box-shadow: 0 0 20px #0090f0;
+    border-radius: 10px;
+}
+.logo{
+    margin: 10px;
+}
+.navBlok{
+    display: flex;
+    justify-content: space-between;
+    background-color: #08172b;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 10px #67a5f5;
+}
+.hederli{
+    display: inline;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+}
+.svet:hover{
+    text-shadow:0px 0px 15px #62befc;
+}
+.logo:hover{
+    box-shadow: 0px 0px 15px #62befc;
+}
+.fotoprofil{ 
+    padding: 170px 0 20px 0px;
+}
+.profil{
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px #6a92aa;
+}
+.specifications{
+    /* border-left: 4px solid #0090f0; */
+    max-width: 100%;
+    max-height: 222px;
+    margin: 50px;
+}
+.characteristics{
+    margin: 40px;
+    padding: 10px;
+    box-shadow: 0 0 30px #6a92aa;
+    border-radius: 20px;
+}
+.blok1{
+    background-color: rgb(255, 255, 255);
+    color:#08172b;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 70px 0;
+    min-height: 666px;
+}
+.blokh1{
+    padding: 50px 0 0 20px;
+}
+.blok2{
+    
+    font-size: larger;
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 40px;
+}
+h2{
+    text-align: center;
+    margin: 40px auto;
+    max-width: 200px;
+    box-shadow: 0 0 30px #0090f0;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+p .aboutme{
+    text-indent: 30px;
+    border-top:4px solid #0090f0;
+    border-radius:30px;
+    padding: 10px;
+}
+.blok3{
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 40px;
+    font-size: large;
+}
+.skils{
+    display: flex;
+    justify-content: center;
+
+}
+/* .hardskils, .prochieskils{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(0, 144, 240, 0.5);
+    border-radius: 20px;
+    max-width: 230px;
+} */
+.softskils, .hardskils, .prochieskils{
+    padding: 20px;
+    max-width: 300px;
+}
+.skils h3{
+    /* text-shadow: 2px 2px 0 rgb(255, 255, 255); */
+    text-align: left;
+}
+hr{
+    max-width: 1000px;
+    align-content: center;
+    border-top: 2px solid #0090f0;
+    box-shadow: 0 0 10px #0090f0;
+}
+.skils ul{
+    padding: 0 20px;
+    text-align: left;
+    border-left: 4px solid #0090f0;
+}
+.blok4{
+    margin: 100px auto 50px auto;
+    padding: 40px;
+
+}
+.workName{
+    display: flex;
+    justify-content: space-between;
+}
+.logoWork{
+    margin: 20px;
+    border-radius: 20px;
+}
+.workposition{
+    /* box-shadow:0 0 10px #0090f0; */
+    border-radius:20px;
+    max-width: 1150px;
+    background-color: #ffffff;
+    color:#08172b;
+    min-height: 665px;
+    margin: 15px;
+}
+.workposition h3{
+    margin: 15px;
+    padding: 10px;
+    color: #2470ad;
+    
+}
+.experience{
+    border-radius:20px;
+    margin: 15px;
+    padding: 10px;
+    max-width: 1130px;
+}
+.experience ul,ol{
+    border-left: 2px solid #0090f0;
+    text-align: left;
+}
+.experience ul{
+    padding: 5px 25px;
+}
+.finish{
+    text-align: center;
+    font-size: x-large;
+}
+footer{
+    background-color: #08172b;
+    margin:0;
+    padding: 20px 100px;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    color:rgb(255, 255, 255);
+    font-style: normal;
+}
+.footer a:hover{
+    text-shadow:0px 0px 15px #62befc;
+}
+button{
+    background-color: #08172b;
+    border: none;
+    font-size: medium;
+    text-align: left;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+button:hover{
+    text-shadow:0px 0px 15px #62befc;
+}
+.footera{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+}
+.footera:hover{
+    box-shadow: 0px 0px 15px #62befc;
+}
