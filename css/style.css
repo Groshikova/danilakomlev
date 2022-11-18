@@ -1,4 +1,13 @@
-
+:root{
+    --gutter: 15px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
 @font-face {
 	font-family: 'Gothem-Black'; 
 	src: url(/шрифт/GothamBlack.ttf); 
@@ -14,7 +23,7 @@
 body{
     margin: 0;
     background-image: url(/img/фон.jpeg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 a{
     text-decoration: none;
@@ -71,7 +80,7 @@ main{
 .specifications{
     /* border-left: 4px solid #0090f0; */
     max-width: 100%;
-    max-height: 222px;
+    /* max-height: 222px; */
     margin: 50px;
 }
 .characteristics{
@@ -86,6 +95,7 @@ main{
     font-size: x-large;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0 0 70px 0;
     min-height: 666px;
 }
@@ -125,6 +135,7 @@ p .aboutme{
 .skils{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 /* .hardskils, .prochieskils{
@@ -161,6 +172,7 @@ hr{
 .workName{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .logoWork{
     margin: 20px;
@@ -206,6 +218,7 @@ footer{
 .footerflex{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer{
     color:rgb(255, 255, 255);
